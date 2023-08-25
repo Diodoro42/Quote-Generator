@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url('biblioteca.avif');
+}
+
+
+#main-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+}
+
+#content > h1{
+    
+    padding: 8px;
+    margin-bottom: 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+    color: white;
+    background-color: black;
+}
+
+#quote-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 800px;
+    max-width: 800px;
+    min-height: 400px;
+    max-height: 400px;
+    box-shadow: 1px 1px 10px black;
+    padding: 10% 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#quote-card > #btn-new-quote{
+
+    width: 40%;
+    min-width: 200px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+#quote-text{
+    
+    font-size: 29px;
+    min-height: 130px;
+    max-height: 130px;
+    text-align: justify;
+    margin-bottom: 15px;
+    color: black;
+    
+}
+
+#quote-person{
+    padding: 20px;
+    margin: 20px;
+    
+    font-size: 30px;
+    color: red;
+}
